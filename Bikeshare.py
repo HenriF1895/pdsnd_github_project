@@ -88,6 +88,14 @@ def load_data(city, month, day):
         # filter by day of week to create the new dataframe
         df = df[df['day_of_week'] == day.title()]
     
+    return df
+
+
+
+
+def display_data(df):
+    """Asks user if she/he wants to display the chosen data."""
+
     # ask user if user wants to display the first 5 rows of the loaded data
     while True:
         display_data = input("Do you want to display the first 5 rows of the loaded data? Enter yes or no: ")
@@ -248,6 +256,7 @@ def main():
         city, month, day = filters()
         df = load_data(city, month, day)
 
+        display_data(df)
         time_stats(df)
         station_stats(df)
         trip_duration_stats(df)
