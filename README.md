@@ -1,17 +1,30 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
-
 ### Date created
-Include the date you created this project and README file.
+The Bikeshare-project was created on the 4th May 2024 and the README-file on the 3rd June 2024.
 
-### Project Title
-Replace the Project Title
+### Investigation of bike share data
+Investigation of bike share data provided by [Motivate](https://motivateco.com) for the three major cities Chicago, New York City and Washington.
 
 ### Description
-Describe what your project is about and what it does
+The project provides users with an interactive environment to analyze bike share data. The data are provided by [Motivate](https://motivateco.com) and are available for the cities Chicago, New York City and Washington. The user can compute descriptive statistics using the environment and gain insights about the following statistics:
+* Popular times of travel
+* Popular stations and trip
+* Trip duration
+* User info
+
+### Necessary Software
+The following Software is required:
+* Python 3
+* NumPy (installed using Anaconda)
+* Pandas (installed using Anaconda)
+
 
 ### Files used
-Include the files used
+The following files are used:
+* Bikeshare.py
+* chicago.csv
+* new_york_city.csv
+* washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+The created repository was forked. The original repository can be found [here](https://github.com/udacity/pdsnd_github).
 
