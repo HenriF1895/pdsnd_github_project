@@ -10,7 +10,7 @@ CITY_DATA = { 'chicago': pd.read_csv('/Users/henri/Library/Mobile Documents/com~
 
 
 
-def get_filters():
+def filters():
     """
     Asks user to specify a city, month, and day to analyze.
 
@@ -246,7 +246,7 @@ def user_stats(df):
 
 def main():
     while True:
-        city, month, day = get_filters()
+        city, month, day = filters()
         df = load_data(city, month, day)
 
         time_stats(df)
