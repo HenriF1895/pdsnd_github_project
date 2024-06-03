@@ -26,5 +26,5 @@ The following files are used:
 * washington.csv
 
 ### Credits
-The created repository was forked. The original repository can be found [here](https://github.com/udacity/pdsnd_github).
+This is a forked repository. The original repository can be found [here](https://github.com/udacity/pdsnd_github).
 
